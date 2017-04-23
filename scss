@@ -28,11 +28,11 @@ $purple: #613d7c !default;
 
 // Grayscale and brand colors for use across Bootstrap.
 // Create grayscale
-$purple:                    #db7fe2 !default;
-$purple:                    #c14fd4 !default;
-$purple:                    #8b71da !default;
-$gray-lighter:              #3b76c6 !default;
-$gray-lightest:             #41b3b7 !default;
+$gray-dark:                 #292b2c !default;
+$gray:                      #464a4c !default;
+$gray-light:                #636c72 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
 
 // Reassign color vars to semantic color scheme
 $brand-primary:             $blue !default;
@@ -84,8 +84,8 @@ $sizes: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:       $purple !default;
-$body-color:    $gray-dark !default;
+$body-bg:       $white !default;
+$body-color:    $purple !;
 
 // Links
 //
@@ -151,34 +151,8 @@ $blockquote-font-size:    ($font-size-base * 1.25) !default;
 @import 'bootstrap-4.0.0-alpha.6';
 
 
-// .btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #632bb8);
-  background-image: -moz-linear-gradient(top, #3498db, #632bb8);
-  background-image: -ms-linear-gradient(top, #3498db, #632bb8);
-  background-image: -o-linear-gradient(top, #3498db, #632bb8);
-  background-image: linear-gradient(to bottom, #3498db, #632bb8);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Georgia;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 40px 12px 25px 7px;
-  text-decoration: none;
-}
+// ADD YOUR CUSTOM CSS HERE  
 
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
-Steven Wanderski
-Chicago Ruby on Rails developer
 body > * {
   background-size: cover;
   background-repeat: none;
