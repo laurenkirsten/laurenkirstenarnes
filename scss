@@ -28,11 +28,11 @@ $purple: #613d7c !default;
 
 // Grayscale and brand colors for use across Bootstrap.
 // Create grayscale
-$gray-dark:                 #292b2c !default;
-$gray:                      #464a4c !default;
-$gray-light:                #636c72 !default;
-$gray-lighter:              #eceeef !default;
-$gray-lightest:             #f7f7f9 !default;
+$purple:                    #db7fe2 !default;
+$purple:                    #c14fd4 !default;
+$purple:                    #8b71da !default;
+$gray-lighter:              #3b76c6 !default;
+$gray-lightest:             #41b3b7 !default;
 
 // Reassign color vars to semantic color scheme
 $brand-primary:             $blue !default;
@@ -84,7 +84,7 @@ $sizes: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:       $white !default;
+$body-bg:       $purple !default;
 $body-color:    $gray-dark !default;
 
 // Links
@@ -123,7 +123,7 @@ $font-size-h5: 1.25rem !default;
 $font-size-h6: 1rem !default;
 
 $headings-margin-bottom: ($spacer / 2) !default;
-$headings-font-family:   Impact, Charcoal, sans-serif;
+$headings-font-family:   inherit !default;
 $headings-font-weight:   500 !default;
 $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
